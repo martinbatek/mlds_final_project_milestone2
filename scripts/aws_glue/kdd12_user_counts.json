@@ -1,0 +1,41 @@
+{
+  "name" : "kdd12_user_counts",
+  "jobMode" : "VISUAL",
+  "description" : "",
+  "role" : "arn:aws:iam::339712949777:role/mbatek_glue_adminaccess_role",
+  "executionProperty" : {
+    "maxConcurrentRuns" : 1
+  },
+  "command" : {
+    "name" : "glueetl",
+    "scriptLocation" : "s3://aws-glue-assets-339712949777-eu-west-2/scripts/kdd12_user_counts.py",
+    "pythonVersion" : "3"
+  },
+  "defaultArguments" : {
+    "--enable-metrics" : "true",
+    "--enable-spark-ui" : "true",
+    "--spark-event-logs-path" : "s3://aws-glue-assets-339712949777-eu-west-2/sparkHistoryLogs/",
+    "--enable-job-insights" : "false",
+    "--enable-observability-metrics" : "true",
+    "--enable-glue-datacatalog" : "true",
+    "--enable-continuous-cloudwatch-log" : "true",
+    "--job-bookmark-option" : "job-bookmark-disable",
+    "--job-language" : "python",
+    "--TempDir" : "s3://aws-glue-assets-339712949777-eu-west-2/temporary/"
+  },
+  "maxRetries" : 0,
+  "allocatedCapacity" : 10,
+  "timeout" : 2880,
+  "maxCapacity" : 10.0,
+  "glueVersion" : "4.0",
+  "numberOfWorkers" : 10,
+  "workerType" : "G.1X",
+  "executionClass" : "STANDARD",
+  "codeGenConfigurationNodes" : "{\"node-1718043741010\":{\"Aggregate\":{\"Aggs\":[{\"AggFunc\":\"count\",\"Column\":[\"user_id\"]}],\"Groups\":[[\"gender\"],[\"age\"]],\"Inputs\":[\"node-1718043634577\"],\"Name\":\"Aggregate by gender, age\"}},\"node-1718044271849\":{\"S3DirectTarget\":{\"AutoDataQuality\":{\"IsEnabled\":false},\"Compression\":\"none\",\"Format\":\"csv\",\"Inputs\":[\"node-1718043741010\"],\"Name\":\"Amazon S3\",\"PartitionKeys\":[],\"Path\":\"s3://mlds-final-project-bucket/kdd12/outputs/users_aggregated/\",\"SchemaChangePolicy\":{\"EnableUpdateCatalog\":false,\"UpdateBehavior\":\"UPDATE_IN_DATABASE\"}}},\"node-1718043634577\":{\"CatalogSource\":{\"Database\":\"kdd12\",\"Name\":\"AWS Glue Data Catalog\",\"Table\":\"users\"}}}",
+  "sourceControlDetails" : {
+    "provider" : "GITHUB",
+    "repository" : "mlds_final_project_milestone2",
+    "branch" : "main",
+    "folder" : "scripts/aws_glue"
+  }
+}
