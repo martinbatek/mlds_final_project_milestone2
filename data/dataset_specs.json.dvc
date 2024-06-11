@@ -1,0 +1,5 @@
+outs:
+- md5: 85ca0e9016360c8f4b0f439a3bc12787
+  size: 1439
+  hash: md5
+  path: dataset_specs.json
