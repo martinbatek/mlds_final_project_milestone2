@@ -1,0 +1,5 @@
+outs:
+- md5: bb094435fef4b1af921d9df94cc91f79
+  size: 2604049
+  hash: md5
+  path: criteo_test.csv

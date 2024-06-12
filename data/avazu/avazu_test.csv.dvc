@@ -1,0 +1,5 @@
+outs:
+- md5: 950681d2eef74bd007e2351e79de5c03
+  size: 2604165
+  hash: md5
+  path: avazu_test.csv
