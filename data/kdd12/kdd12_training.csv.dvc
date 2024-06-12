@@ -1,0 +1,5 @@
+outs:
+- md5: 5220326b2d99e5257f585db4ada9d546
+  size: 721806
+  hash: md5
+  path: kdd12_training.csv

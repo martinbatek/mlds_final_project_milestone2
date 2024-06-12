@@ -1,0 +1,5 @@
+outs:
+- md5: 9a424b914ef9e8c70498ca4851c1273b
+  size: 148269
+  hash: md5
+  path: kdd12_keywords.csv

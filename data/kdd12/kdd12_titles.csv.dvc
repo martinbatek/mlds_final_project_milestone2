@@ -1,0 +1,5 @@
+outs:
+- md5: cb1c6f80f2b4a6b7b6a4fa074d64ea49
+  size: 390263
+  hash: md5
+  path: kdd12_titles.csv
