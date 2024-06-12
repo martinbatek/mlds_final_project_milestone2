@@ -1,0 +1,5 @@
+outs:
+- md5: e897ef4372594c2a4f1fa53ca9f2efec
+  size: 6700
+  hash: md5
+  path: avazu_hour_check.csv
