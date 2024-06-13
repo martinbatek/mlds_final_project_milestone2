@@ -6,3 +6,6 @@
 /kdd12_titles.csv
 /kdd12_training.csv
 /kdd12_user.csv
+/kdd12_click_counts.csv
+/kdd12_ctr_dist.csv
+/kdd12_impression_counts.csv
