@@ -1,0 +1,5 @@
+outs:
+- md5: e2cf59d22259d91cc55bf1bed4dc9a33
+  size: 178
+  hash: md5
+  path: avazu_banner_pos_check.csv
