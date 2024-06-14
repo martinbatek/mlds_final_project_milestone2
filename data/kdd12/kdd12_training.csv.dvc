@@ -1,5 +1,5 @@
 outs:
-- md5: d8005007025fc9313cc7eb426b74c9fd
-  size: 7205030
+- md5: 1f60fb084d74b2865818885f40dc4180
+  size: 36014387
   hash: md5
   path: kdd12_training.csv
