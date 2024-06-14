@@ -1,0 +1,5 @@
+outs:
+- md5: d79d1ba0dd16e3465bbd13c4a9a1f659
+  size: 550719
+  hash: md5
+  path: kdd12_advertizer_id.csv
