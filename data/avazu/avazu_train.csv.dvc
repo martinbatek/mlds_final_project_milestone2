@@ -1,5 +1,5 @@
 outs:
-- md5: c0b70d28ca34d37303668c115b7b9f0e
-  size: 78850357
+- md5: 9519b8cde55a5bf3659ceaec81f53d58
+  size: 15756811
   hash: md5
   path: avazu_train.csv

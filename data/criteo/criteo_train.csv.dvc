@@ -1,5 +1,5 @@
 outs:
-- md5: 1067a0ca654261f0a2f20e6ab5b9db81
-  size: 130570343
+- md5: d5a22ec084953b9cabf6fa634bc88fbc
+  size: 26291720
   hash: md5
   path: criteo_train.csv
