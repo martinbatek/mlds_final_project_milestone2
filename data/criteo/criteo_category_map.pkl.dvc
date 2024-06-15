@@ -1,0 +1,5 @@
+outs:
+- md5: 9d9c29c6bf41a5f1ecff7d1d9fc097b9
+  size: 3584585
+  hash: md5
+  path: criteo_category_map.pkl
