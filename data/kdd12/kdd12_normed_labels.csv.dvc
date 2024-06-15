@@ -1,0 +1,5 @@
+outs:
+- md5: f39d37c4fd5eb3fc305008d9597746c8
+  size: 14410120
+  hash: md5
+  path: kdd12_normed_labels.csv

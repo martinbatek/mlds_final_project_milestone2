@@ -1,3 +1,5 @@
 /kdd12_training.csv
 /kdd12_encoded.csv
 /kdd12_standardized.csv
+/kdd12_category_map.pkl
+/kdd12_normed_labels.csv
