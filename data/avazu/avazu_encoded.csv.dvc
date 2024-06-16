@@ -1,5 +1,5 @@
 outs:
-- md5: b178b8b28ab5f55be65a56f96b367d6f
-  size: 11242996
+- md5: f88532f432e7a788f412a401de283cf4
+  size: 11142995
   hash: md5
   path: avazu_encoded.csv

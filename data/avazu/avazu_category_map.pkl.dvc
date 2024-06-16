@@ -1,5 +1,5 @@
 outs:
-- md5: da8be9dae52f6db5ec68cfcd777542a1
+- md5: 8cc40534f6ebc5bfae517fafbb2c8df8
   size: 2229801
   hash: md5
   path: avazu_category_map.pkl
