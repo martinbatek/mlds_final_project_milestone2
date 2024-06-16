@@ -1,0 +1,5 @@
+outs:
+- md5: dd28c874732d3f34d5e3ef81ab160b48
+  size: 47640
+  hash: md5
+  path: criteo_factorization_machine.pkl

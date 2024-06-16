@@ -1,0 +1,5 @@
+outs:
+- md5: 5dea59987a3d0da440f900bfb7a95ac3
+  size: 22584
+  hash: md5
+  path: avazu_factorization_machine.pkl

@@ -1,0 +1,5 @@
+outs:
+- md5: 7569a5174beb83e5170d692231f03ef6
+  size: 35856
+  hash: md5
+  path: kdd12_factorization_machine.pkl
