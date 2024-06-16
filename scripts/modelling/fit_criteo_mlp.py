@@ -1,5 +1,5 @@
-# Define a 2 hidden layer Sequential model with dropout and batch normalization model for kdd12
-kdd12_mlp = Sequential([
+# Define a 2 hidden layer Sequential model with dropout and batch normalization model for avazu
+criteo_mlp = Sequential([
     Dense(128,activation='relu'),
     BatchNormalization(),
     Dropout(rate=0.7),
@@ -16,21 +16,18 @@ auc = tf.keras.metrics.AUC(name='auc')
 accuracy = tf.keras.metrics.BinaryAccuracy(name='accuracy')
 binary_crossentropy = tf.keras.losses.BinaryCrossentropy(name='log_loss')
 
-kdd12_mlp.compile(loss=binary_crossentropy, optimizer=adam, metrics=[accuracy,auc])
-kdd12_mlp_hist = kdd12_mlp.fit(
-    kdd12_train_tfd,
+criteo_mlp.compile(loss=binary_crossentropy, optimizer=adam, metrics=[accuracy,auc])
+criteo_mlp_hist = criteo_mlp.fit(
+    criteo_train_tfd,
     batch_size=100,
     epochs=50,
-    validation_data=kdd12_val_tfd,
+    validation_data=criteo_val_tfd,
     verbose=False
 )
-# Print summary of the MLP Model
-print(kdd12_mlp.summary())
-
 # Save model
-kdd12_mlp.save('models/mlp/kdd12_mlp.keras')
+criteo_mlp.save('models/mlp/criteo_mlp.keras')
 
 # Save hist object
-with open('models/mlp/kdd12_hist.json','w') as f:
-    json.dump(kdd12_mlp_hist.history,f)
+with open('models/mlp/criteo_hist.json','w') as f:
+    json.dump(criteo_mlp_hist.history,f)
 f.close()

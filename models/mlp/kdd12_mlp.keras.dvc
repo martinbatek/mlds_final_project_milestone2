@@ -1,5 +1,5 @@
 outs:
-- md5: 1e55d8754fd7f15278447e924cae4bc6
-  size: 2461124
+- md5: 5312348f50b9bdb079f478693791adb7
+  size: 2468976
   hash: md5
   path: kdd12_mlp.keras
