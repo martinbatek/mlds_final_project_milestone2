@@ -1,0 +1,5 @@
+outs:
+- md5: c84ed08a590afef073d9ba2102794b18
+  size: 6078
+  hash: md5
+  path: criteo_hist.json
