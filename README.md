@@ -22,3 +22,6 @@ Run the following line once in order to retrieve the data samples from AWS S3. B
 ## Python environment
 
 Please refer to the `requirements.txt` and `environment.yml` files for installation via `pip` and `conda` respectively.
+
+## Code Repository
+https://github.com/martinbatek/mlds_final_project_milestone2.git
