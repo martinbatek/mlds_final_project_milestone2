@@ -1,5 +1,5 @@
 outs:
-- md5: 48d125a506d9c35a395b9e69533de367
-  size: 1610177
+- md5: 4d63d9823785f4d2dfff25b42f81a0ad
+  size: 1618200
   hash: md5
   path: avazu_mlp.keras

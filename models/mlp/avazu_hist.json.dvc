@@ -1,5 +1,5 @@
 outs:
-- md5: 967dd44083ba0bb2a28632abfacd07a4
-  size: 6074
+- md5: 98eca7c72efe815b91572719cd88285c
+  size: 6087
   hash: md5
   path: avazu_hist.json

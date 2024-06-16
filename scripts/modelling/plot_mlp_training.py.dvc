@@ -1,0 +1,5 @@
+outs:
+- md5: 6d95c7096e2209948df1124d9423cd44
+  size: 991
+  hash: md5
+  path: plot_mlp_training.py

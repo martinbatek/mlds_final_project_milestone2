@@ -1,5 +1,5 @@
 outs:
-- md5: d8df1b32ace85347d12ed72747c16f3a
-  size: 6132
+- md5: aa556cd4babf36d5494289c718b416bd
+  size: 6114
   hash: md5
   path: kdd12_hist.json
