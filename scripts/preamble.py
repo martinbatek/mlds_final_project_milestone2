@@ -27,6 +27,6 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import log_loss, roc_auc_score, accuracy_score
 #from fastFM import sgd
-from tensorflow.keras.layers import Dense, BatchNormalization
+from tensorflow.keras.layers import Dense, BatchNormalization, Dropout, Input
 from tensorflow.keras.models import Sequential
 import tensorflow as tf
