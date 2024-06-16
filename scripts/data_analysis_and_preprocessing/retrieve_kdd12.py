@@ -17,4 +17,4 @@ kdd12 = pd.read_csv(
     }
     )
 print("Snapshot of KDD12 training data:")
-display(kdd12.head())
+display(kdd12.head(2))

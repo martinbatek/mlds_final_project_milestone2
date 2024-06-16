@@ -32,4 +32,4 @@ criteo = pd.read_csv(
     )
 
 print("Snapshot of Criteo training data:")
-display(criteo.head())
+display(criteo.head(2))

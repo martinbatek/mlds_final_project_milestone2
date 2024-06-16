@@ -29,4 +29,4 @@ avazu = pd.read_csv(
     }
     )
 print("Snapshot of Avazu training data:")
-display(avazu.head())
+display(avazu.head(2))

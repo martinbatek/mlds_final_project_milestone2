@@ -8,11 +8,11 @@ of the project."
 
 ## Data Download
 
-### DVC: Preferred, fully replicable to the below
+### DVC: Preferred, fully replicating the contents of the notebook
 
 The preferred method to retrieve the data is to run `dvc pull` in the CLI. This will ensure that the exact same samples are retrieved to the ones used in the report. See documentation for [DVC](https://dvc.org/doc/command-reference/pull) for reference. This depends on installing `dvc` and `dvc-s3` in the environment.
 
-### boto3: Alternative Method
+### boto3: Alternative Method, but not replicable
 
 Run the following line once in order to retrieve the data samples from AWS S3. Below, we pass 100000 as the sample argument. Before doing so, please ensure that `boto3` and `s3fs` are installed. Refer to `requirements.txt` for further dependencies.
 ```{python}
