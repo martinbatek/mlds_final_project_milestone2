@@ -215,7 +215,6 @@ dependencies:
   - gts=0.7.6=h977cf35_4
   - h11=0.14.0=pyhd8ed1ab_0
   - h2=4.1.0=pyhd8ed1ab_0
-  - h5py=3.11.0=nompi_py310h65828d5_100
   - harfbuzz=8.4.0=h3d44ed6_0
   - hdf5=1.14.3=nompi_h4f84152_101
   - hdijupyterutils=0.21.0=pyh1a96a4e_0
@@ -723,9 +722,11 @@ dependencies:
   - zstd=1.5.5=hfc55251_0
   - pip:
       - annotated-types==0.7.0
+      - deepctr==0.9.3
       - dvc-s3==3.2.0
       - fastfm==0.2.10
       - fsspec==2024.6.0
+      - h5py==3.7.0
       - jupyter-scheduler==2.7.1
       - pydantic==2.7.3
       - pydantic-core==2.18.4

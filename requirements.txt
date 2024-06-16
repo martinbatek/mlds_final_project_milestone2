@@ -94,6 +94,7 @@ dataclasses-json @ file:///home/conda/feedstock_root/build_artifacts/dataclasses
 datasets @ file:///home/conda/feedstock_root/build_artifacts/datasets_1715005688524/work
 debugpy @ file:///home/conda/feedstock_root/build_artifacts/debugpy_1707444420542/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+deepctr==0.9.3
 deepmerge @ file:///home/conda/feedstock_root/build_artifacts/deepmerge_1702941685750/work
 defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
 dictdiffer @ file:///home/conda/feedstock_root/build_artifacts/dictdiffer_1627027576828/work
@@ -155,7 +156,7 @@ gssapi @ file:///home/conda/feedstock_root/build_artifacts/python-gssapi_1697143
 gto @ file:///home/conda/feedstock_root/build_artifacts/gto_1704857118902/work
 h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1664132893548/work
 h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1634280454336/work
-h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1712763600515/work
+h5py==3.7.0
 hdijupyterutils @ file:///home/conda/feedstock_root/build_artifacts/hdijupyterutils_1694633580855/work
 hpack==4.0.0
 httpcore @ file:///home/conda/feedstock_root/build_artifacts/httpcore_1711596990900/work
