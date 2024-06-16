@@ -3,3 +3,4 @@
 /kdd12_standardized.csv
 /kdd12_category_map.pkl
 /kdd12_normed_labels.csv
+/kdd12_encoder.pkl

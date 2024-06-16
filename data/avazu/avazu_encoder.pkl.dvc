@@ -1,0 +1,5 @@
+outs:
+- md5: f65b4ac8fb3678359e697579955801a0
+  size: 3977470
+  hash: md5
+  path: avazu_encoder.pkl

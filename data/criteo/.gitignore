@@ -4,3 +4,4 @@
 /criteo_category_map.pkl
 /criteo_standardized.csv
 /criteo_normed_labels.csv
+/criteo_encoder.pkl

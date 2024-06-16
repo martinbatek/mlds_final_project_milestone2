@@ -1,0 +1,5 @@
+outs:
+- md5: 8f33c81a79ac729209cf5872bd2678f9
+  size: 4030419
+  hash: md5
+  path: kdd12_encoder.pkl
