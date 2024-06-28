@@ -1,5 +1,5 @@
 outs:
-- md5: 3fcd04ed6abc8c50a7d63f455f9f59fe
-  size: 23954
+- md5: 08f805a79d50fbbe26d7d243fcb2dd54
+  size: 23948
   hash: md5
   path: kdd12_logistic_regression.pkl
