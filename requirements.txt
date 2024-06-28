@@ -77,7 +77,7 @@ grandalf @ file:///home/conda/feedstock_root/build_artifacts/grandalf_1632832336
 grpcio @ file:///croot/grpc-suite_1685746860162/work
 gssapi @ file:///croot/python-gssapi_1713971740602/work
 gto @ file:///home/conda/feedstock_root/build_artifacts/gto_1711157984154/work
-h5py==3.7.0
+h5py @ file:///tmp/build/80754af9/h5py_1608649014695/work
 hydra-core @ file:///home/conda/feedstock_root/build_artifacts/hydra-core_1677543700389/work
 idna @ file:///croot/idna_1714398848350/work
 importlib-metadata @ file:///croot/importlib_metadata-suite_1704813515092/work
