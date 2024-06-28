@@ -1,5 +1,5 @@
 outs:
-- md5: c7ec7efc2676201c4801de4d13440392
+- md5: cf250720f2ffa6fbc311e9e63dbc52a5
   size: 2414115
   hash: md5
   path: kdd12_category_map.pkl
