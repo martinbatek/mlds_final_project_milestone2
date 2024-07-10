@@ -1,5 +1,5 @@
 outs:
-- md5: cbc410ccf5d2082b86436f375bb45e9a
-  size: 3284288
+- md5: abc2bbf89de1cd185df5bbfae4bc1de9
+  size: 3269051
   hash: md5
   path: criteo_mlp.keras
